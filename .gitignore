@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Slicer temp files
+*.bak
+*.tmp
+
+# Fusion 360 recovery
+*_recover/
