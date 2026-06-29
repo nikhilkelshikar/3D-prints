@@ -12,6 +12,7 @@ Generated with [gfthings](https://github.com/PaulBone/gfthings) v0.8.0.
 | `craft-misc_2x2_3div.stl` | 3-division bin for small craft supplies | 84 × 84 mm, ~35mm tall |
 | `magbak-batteries_2x2.stl` | Flat tray for MagBak batteries | 84 × 84 mm, ~35mm tall |
 | `powerbanks_2x3.stl` | Bin for Li-ion power banks | 84 × 126 mm, ~35mm tall |
+| `aa-batteries_2x1.stl` | Upright storage for AA batteries | 84 × 42 mm, ~56mm tall |
 
 ## Layout on 5×4 baseplate
 
@@ -47,4 +48,5 @@ gfbin -x 1 -y 4 -z 4 -s 15 -o pen-holder_1x4.stl
 gfbin -x 2 -y 2 -z 5 -d 3 -o craft-misc_2x2_3div.stl
 gfbin -x 2 -y 2 -z 5 --scoop 0 --no-label -o magbak-batteries_2x2.stl
 gfbin -x 2 -y 3 -z 5 --scoop 0 --no-label -o powerbanks_2x3.stl
+gfbin -x 2 -y 1 -z 8 --no-label -o aa-batteries_2x1.stl
 ```
