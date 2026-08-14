@@ -8,6 +8,7 @@ Generated with [gfthings](https://github.com/PaulBone/gfthings) v0.8.0.
 | File | Description | Dimensions |
 |------|-------------|------------|
 | `baseplate_5x4.stl` | Desktop baseplate (short/no screws) | 210 × 168 mm |
+| `baseplate_7x7.stl` | Drawer baseplate (short/no screws, magnet holes) — fits 11.75×11.75in drawer | 294 × 294 mm |
 | `pen-holder_1x4.stl` | Pens/markers lying horizontal, scoop front | 42 × 168 mm, ~28mm tall |
 | `craft-misc_2x2_3div.stl` | 3-division bin for small craft supplies | 84 × 84 mm, ~35mm tall |
 | `magbak-batteries_2x2.stl` | Flat tray for MagBak batteries | 84 × 84 mm, ~35mm tall |
@@ -36,12 +37,14 @@ Rough arrangement — mix and match bins freely, Gridfinity snaps anywhere on th
 - **Infill:** 15–20%
 - **Supports:** None needed
 - **Orientation:** Print upright (as oriented in STL)
+- **`baseplate_7x7.stl`:** press-fit 6×2mm neodymium disc magnets into the magnet holes after printing to hold the plate to a steel drawer bottom
 
 ## gfthings Commands
 
 ```bash
 # Baseplate
 gfbase -x 5 -y 4 --short -o baseplate_5x4.stl
+gfbase -x 7 -y 7 --short -o baseplate_7x7.stl  # magnet holes included by default (6.2mm dia, 2mm deep)
 
 # Bins
 gfbin -x 1 -y 4 -z 4 -s 15 -o pen-holder_1x4.stl
